@@ -3,6 +3,7 @@ import json
 
 
 token = "<token>"
+#examples; url = "https://127.0.0.1:8200/v1/"
 url = "<url>"
 headers = {"X-Vault-Token": token, "X-Vault-Namespace": "admin", "Content-Type": "application/json"}
 mount_path = "auth/userpass-test/"
